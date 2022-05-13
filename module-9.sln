@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.1_exceptions", "9.1_exceptions\9.1_exceptions.csproj", "{24B39FDB-D2D0-4139-A629-EF911A21A64B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "9.1_exceptions", "9.1_exceptions\9.1_exceptions.csproj", "{24B39FDB-D2D0-4139-A629-EF911A21A64B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9.2_try-catch-finally", "9.2_try-catch-finally\9.2_try-catch-finally.csproj", "{5ED05524-6DD0-43CE-99F7-79EE634C116F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{24B39FDB-D2D0-4139-A629-EF911A21A64B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24B39FDB-D2D0-4139-A629-EF911A21A64B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24B39FDB-D2D0-4139-A629-EF911A21A64B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ED05524-6DD0-43CE-99F7-79EE634C116F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ED05524-6DD0-43CE-99F7-79EE634C116F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ED05524-6DD0-43CE-99F7-79EE634C116F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ED05524-6DD0-43CE-99F7-79EE634C116F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

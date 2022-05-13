@@ -1,3 +1,4 @@
-﻿global using WMPLib;
-// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Exception exception = new Exception("Произошло исключение");
+exception.Data.Add("Дата создания исключения: ", Convert.ToString(DateOnly.FromDateTime(DateTime.Now)));
+exception.HelpLink = "dsdfs";
+Console.ReadKey();
