@@ -13,3 +13,18 @@ C:\Users\Dmitry Lazarenko\source\repos\module-9\module-9\9.2_try-catch-finally\o
 C:\Users\Dmitry Lazarenko\source\repos\module-9\module-9\9.2_try-catch-finally\obj\Debug\net6.0\9.2_try-catch-finally.pdb
 C:\Users\Dmitry Lazarenko\source\repos\module-9\module-9\9.2_try-catch-finally\obj\Debug\net6.0\9.2_try-catch-finally.genruntimeconfig.cache
 C:\Users\Dmitry Lazarenko\source\repos\module-9\module-9\9.2_try-catch-finally\obj\Debug\net6.0\ref\9.2_try-catch-finally.dll
+C:\Users\Дмитрий\Source\Repos\DobroBeam\module-9\9.2_try-catch-finally\obj\Debug\net6.0\9.2_try-catch-finally.dll
+C:\Users\Дмитрий\Source\Repos\DobroBeam\module-9\9.2_try-catch-finally\obj\Debug\net6.0\refint\9.2_try-catch-finally.dll
+C:\Users\Дмитрий\Source\Repos\DobroBeam\module-9\9.2_try-catch-finally\bin\Debug\net6.0\9.2_try-catch-finally.exe
+C:\Users\Дмитрий\Source\Repos\DobroBeam\module-9\9.2_try-catch-finally\bin\Debug\net6.0\9.2_try-catch-finally.deps.json
+C:\Users\Дмитрий\Source\Repos\DobroBeam\module-9\9.2_try-catch-finally\bin\Debug\net6.0\9.2_try-catch-finally.runtimeconfig.json
+C:\Users\Дмитрий\Source\Repos\DobroBeam\module-9\9.2_try-catch-finally\bin\Debug\net6.0\9.2_try-catch-finally.dll
+C:\Users\Дмитрий\Source\Repos\DobroBeam\module-9\9.2_try-catch-finally\bin\Debug\net6.0\9.2_try-catch-finally.pdb
+C:\Users\Дмитрий\Source\Repos\DobroBeam\module-9\9.2_try-catch-finally\obj\Debug\net6.0\9.2_try-catch-finally.csproj.AssemblyReference.cache
+C:\Users\Дмитрий\Source\Repos\DobroBeam\module-9\9.2_try-catch-finally\obj\Debug\net6.0\9.2_try-catch-finally.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитрий\Source\Repos\DobroBeam\module-9\9.2_try-catch-finally\obj\Debug\net6.0\9.2_try-catch-finally.AssemblyInfoInputs.cache
+C:\Users\Дмитрий\Source\Repos\DobroBeam\module-9\9.2_try-catch-finally\obj\Debug\net6.0\9.2_try-catch-finally.AssemblyInfo.cs
+C:\Users\Дмитрий\Source\Repos\DobroBeam\module-9\9.2_try-catch-finally\obj\Debug\net6.0\9.2_try-catch-finally.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Source\Repos\DobroBeam\module-9\9.2_try-catch-finally\obj\Debug\net6.0\9.2_try-catch-finally.pdb
+C:\Users\Дмитрий\Source\Repos\DobroBeam\module-9\9.2_try-catch-finally\obj\Debug\net6.0\9.2_try-catch-finally.genruntimeconfig.cache
+C:\Users\Дмитрий\Source\Repos\DobroBeam\module-9\9.2_try-catch-finally\obj\Debug\net6.0\ref\9.2_try-catch-finally.dll
