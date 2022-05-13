@@ -8,24 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Dmitry Lazarenko\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Дмитрий\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dmitry Lazarenko\\source\\repos\\module-9\\module-9\\9.1_exceptions\\9.1_exceptions.csproj",
+      "projectUniqueName": "C:\\Users\\Дмитрий\\Source\\Repos\\DobroBeam\\module-9\\9.1_exceptions\\9.1_exceptions.csproj",
       "projectName": "9.1_exceptions",
-      "projectPath": "C:\\Users\\Dmitry Lazarenko\\source\\repos\\module-9\\module-9\\9.1_exceptions\\9.1_exceptions.csproj",
-      "packagesPath": "C:\\Users\\Dmitry Lazarenko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dmitry Lazarenko\\source\\repos\\module-9\\module-9\\9.1_exceptions\\obj\\",
+      "projectPath": "C:\\Users\\Дмитрий\\Source\\Repos\\DobroBeam\\module-9\\9.1_exceptions\\9.1_exceptions.csproj",
+      "packagesPath": "C:\\Users\\Дмитрий\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Дмитрий\\Source\\Repos\\DobroBeam\\module-9\\9.1_exceptions\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Dmitry Lazarenko\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Дмитрий\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -65,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
