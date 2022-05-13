@@ -9,7 +9,7 @@ catch(Exception ex) when (ex is ArgumentOutOfRangeException)
 }
 catch(Exception ex)
 {
-    Console.WriteLine(ex.Message);
+    Console.WriteLine(ex.Message); 
 }
 
 try
