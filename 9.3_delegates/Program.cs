@@ -103,8 +103,8 @@
         delegate bool CheckLengthDelegate(string row);
 */
 
-/*
-// Задание 9.3.12
+
+// Задание 9.3.12 + Задание 9.3.14 (лямбда-оператор)
 // Существует следующее консольное решение, которое отображает сообщение Hello World в консольном сообщении.
 // Реализуйте в данном решении анонимный метод, не сломав логику приложения.
 
@@ -115,33 +115,31 @@ namespace DelegatePractices
         delegate void ShowMessageDelegate(string _message);
         static void Main(string[] args)
         {
-            ShowMessageDelegate showMessageDelegate = delegate (string text)
-            { Console.WriteLine(text); };
+            ShowMessageDelegate showMessageDelegate = text => Console.WriteLine(text);            
             showMessageDelegate.Invoke("Hello World!");
             Console.Read();
         }
     }
 }
-*/
 
 
-// Задание 9.3.13
-// Существует консольное решение, которое выводит случайное целое число в диапазоне от 0 до 100 и
-// отображает результат в консольное сообщение.
-// Реализуйте в данном решении анонимный метод, не сломав логику приложения.
-namespace DelegatePractices2
-{
-    class Program
+/*
+    // Задание 9.3.13 + Задание 9.3.15 (лямбда-оператор)
+    // Существует консольное решение, которое выводит случайное целое число в диапазоне от 0 до 100 и
+    // отображает результат в консольное сообщение.
+    // Реализуйте в данном решении анонимный метод, не сломав логику приложения.
+    namespace DelegatePractices2
     {
-        delegate int RandomNumberDelegate();
-        static void Main(string[] args)
+        class Program
         {
-            RandomNumberDelegate randomNumberDelegate = delegate()
+            delegate int RandomNumberDelegate();
+            static void Main(string[] args)
             {
-                return new Random().Next(0, 100);
-            };
-            Console.WriteLine(randomNumberDelegate.Invoke());
-            Console.Read();
+                RandomNumberDelegate randomNumberDelegate = () => new Random().Next(0, 100);
+            
+                Console.WriteLine(randomNumberDelegate.Invoke());
+                Console.Read();
+            }
         }
     }
-}
+*/
