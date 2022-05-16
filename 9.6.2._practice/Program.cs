@@ -5,7 +5,7 @@
 
 // 2.   Дополнительно реализуйте проверку введённых данных от пользователя через конструкцию TryCatchFinally с использованием собственного типа исключения.
 
-string[] list = new string[] { "Иванов", "Петров", "Сидоров", "Абрамов", "Александров" };
+string[] list = new string[] { "Иванов", "Петров", "Сидоров", "Александров", "Абрамов" };
 Sort sort = new Sort(list);
 sort.ModeChoosenEvent += ShowList;
 
@@ -41,23 +41,33 @@ class Sort
 
     public delegate void SortModeDelegate(int number);
     public event SortModeDelegate ModeChoosenEvent;
-    //protected void ModeChoosen(int number)
-    //{
-    //    ModeChoosenEvent?.Invoke(number);
-    //}
+    protected void ModeChoosen(int number)
+    {
+        ModeChoosenEvent?.Invoke(number);
+    }
     public void ModeChoose()
     {
-        Console.WriteLine("Сортировка списка: \n\t\t 1 - сортировка А - Я \n\t\t 2 - сортировка Я - А");
+        Console.WriteLine("\nСортировка списка: \n\t 1 - сортировка А - Я \n\t 2 - сортировка Я - А");
         int number = Convert.ToInt32(Console.ReadLine());
         if (number != 1 && number != 2) throw new FormatException();
-        ModeChoosenEvent(number);
+        ModeChoosen(number);
     }
     public void SortAZ()
     {
-        Console.WriteLine("Сортировка А - Я:");
+        Console.WriteLine("Сортировка А - Я:");        
+        IEnumerable<string> query = from word in list
+                                    orderby word.Substring(0, word.Length)
+                                    select word;
+        foreach (string str in query)
+            Console.WriteLine(str);
     }
     public void SortZA()
     {
         Console.WriteLine("Сортировка Я - А:");
+        IEnumerable<string> query = from word in list
+                                    orderby word.Substring(0, word.Length) descending
+                                    select word;
+        foreach (string str in query)
+            Console.WriteLine(str);
     }
 }
